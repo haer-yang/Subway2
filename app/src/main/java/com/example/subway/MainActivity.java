@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Spinner sp =(Spinner)findViewById(R.id.sp);
-        ArrayAdapter spAdapter = ArrayAdapter.createFromResource(this,R.array.branch, )
+        ArrayAdapter spAdapter = ArrayAdapter.createFromResource(this,R.array.branch, android.R.layout.simple_spinner_dropdown_item );
+        sp.setAdapter(spAdapter);
 
     }
 }
