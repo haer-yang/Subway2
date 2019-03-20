@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="branch">
+        <item>평촌 스마트 스퀘어점</item>
+        <item>안양롯데점</item>
+        <item>안양범계점</item>
+        <item>안양1번가점</item>
+        <item>인덕원역점</item>
+        <item>안양평촌학원가점</item>
+
+
+    </string-array>
+
+
+</resources>
