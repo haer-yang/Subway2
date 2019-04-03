@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddmenuActivity">
+    tools:context=".AddmenuActivity"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <!--android.support.design.widget.TabLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tab_layout"
+        >
+        <android.support.design.widget.TabItem
+            android:text="클래식"
+            android:id="@+id/tab_classic"
+            />
+
+        <android.support.design.widget.TabItem
+            android:text="프래시"
+            android:id="@+id/tab_frash"/>
+
+        <android.support.design.widget.TabItem
+            android:text="프리미엄"
+            android:id="@+id/tab_primium"/>
+
+        <android.support.design.widget.TabItem
+            android:text="샐러드"
+            android:id="@+id/tab_salad"/>
+
+        <android.support.design.widget.TabItem
+            android:text="추가메뉴"
+            android:id="@+id/tab_addmenu"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tab_layout"
+        android:id="@+id/contents">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4CAF50"
+            android:gravity="center"
+            android:visibility="visible"
+            android:id="@+id/classic_tab"
+            android:text="클래식" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/flash_tab"
+            android:text="프래시" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/pimium_tab"
+            android:text="프리미엄" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/salad_tab"
+            android:text="샐러드" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/addmenu_tab"
+            android:text="추가메뉴" />
+
+
+
+    </FrameLayout-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src=""/>
+</LinearLayout>
