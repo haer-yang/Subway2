@@ -12,20 +12,24 @@
         <activity android:name=".ByeActivity"></activity>
         <activity android:name=".ResultActivity" />
         <activity android:name=".SetActivity" />
-        <activity android:name=".AddmenuActivity" />
+
         <activity android:name=".SActivity" />
         <activity android:name=".BActivity" />
         <activity android:name=".VActivity" />
         <activity android:name=".CheeseActivity" />
         <activity android:name=".AddtopActivity" />
         <activity android:name=".OrderActivity" />
-        <activity android:name=".MenupActivity" />
+
         <activity android:name=".MenufActivity" />
         <activity android:name=".MenucActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".IntroActivity" />
         <activity android:name=".BranchActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+
+            <activity android:name=".AddmenuActivity"/>
+                <activity android:name=".MenupActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
